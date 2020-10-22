@@ -1,0 +1,25 @@
+# Site settings
+title: MeLavoro
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "https://melavoro.com" # the base hostname & protocol for your site
+logo: assets/img/logo_melavoro.png
+author: Copyright &copy; 2020 - KRYAX SRL
+lang: it_IT
+
+# Build settings
+safe: true 
+markdown: kramdown
+sass:
+  indentWidth: 4
+  style: compressed
+  precision: 10
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+

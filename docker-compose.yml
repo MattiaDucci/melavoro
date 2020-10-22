@@ -1,0 +1,12 @@
+version: '2.4'
+
+services:
+  jekyll:
+    image: bretfisher/jekyll-serve
+    volumes:
+      - .:/site
+      - ./vendor/bundle:/usr/local/bundle
+    ports:
+      - '8080:4000'
+      - '4001:4001'
+    command: bundle exec jekyll s --force-polling -H 0.0.0.0 -P 4000 --livereload --livereload-port 4001
