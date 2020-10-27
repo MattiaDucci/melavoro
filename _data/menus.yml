@@ -3,12 +3,10 @@
 # However on github-pages custom plugins are disabled, and the script doesn't
 # run. So please, fill in any custom menu entry here.
 header:
-- title: Chi siamo
-  url: /#target
 - title: Servizi
-  url: /#focus
-- title: Prezzi
-  url: /#pricing
+  url: /#services
+- title: Prodotti
+  url: /#products
 - title: Contatti
   url: /#contacts
 

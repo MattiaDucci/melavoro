@@ -3,7 +3,7 @@ title: MeLavoro
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "https://melavoro.com" # the base hostname & protocol for your site
-logo: assets/img/logo_melavoro.png
+logo: /assets/img/logo_melavoro.png
 author: Copyright &copy; 2020 - KRYAX SRL
 lang: it_IT
 
@@ -22,4 +22,22 @@ exclude:
   - Gemfile.lock
   - README.md
   - vendor
+collections:
+  pricing:
+    output: true
+  service_descriptions:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "pricing"
+    values:
+      layout: "service_price"
+  - scope:
+      path: ""
+      type: "service_descriptions"
+    values:
+        layout: "service_description"
+
 

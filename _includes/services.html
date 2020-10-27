@@ -13,18 +13,23 @@
       {% assign colsM = colsL | times: 2 %}
 
       {% for service in section.services %}
+        {% assign service_description = site.service_descriptions | where: "identifier",service.identifier | first %}
+        {% assign service_url = service_description.url %}
+        {% assign service_pricing = site.pricing | where: "identifier",service.identifier | first %}
+        {% assign service_pricing_url = service_pricing.url %}
+
       <div class="col-lg-{{ colsL }} col-md-{{ colsM }} text-center">
         <div class="mt-5">
-          <img src="assets/img/services/{{ service.icon }}" width="100" class="text-primary mb-4">
+          <a href="{{ service_url }}">
+            <img src="assets/img/services/{{ service.icon }}" width="100" class="text-primary mb-4">
+          </a>
           <h3 class="h4 mb-2">{{ service.title }}</h3>
           {% if service.subtitle %}
           <h4 class="h5 mb-2 text-purple">{{ service.subtitle }}</h4>
           {% endif %}
           <div class="text-muted mb-0">
             {{ service.text | markdownify }}
-            {% if service.url %}
-              <a href="{{ service.url }}"><i class="fas fa-link"></i></a>
-            {% endif %}
+            <a href="{{ service_pricing_url }}" class="btn btn-info" role="button">Acquista</a>
           </div>
         </div>
       </div>
