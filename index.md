@@ -6,7 +6,7 @@ header:
     MeLavoro è il portale di Medicina del Lavoro dedicato ai professionisti del settore, alle Aziende ed ai Lavoratori: un unico luogo in cui i diversi protagonisti svolgono la lora attività con servizi sempre all'avanguardia.
   action: # action button is optional
     label: Sorveglianza COVID
-    url: '#'
+    url: 'pricing/covid_surveillance.html'
 
 
 sections:

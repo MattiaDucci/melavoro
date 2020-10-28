@@ -1,8 +1,12 @@
 ---
 layout: page
 ---
+
 {{ content }}
 
+{% assign service_pricing = site.pricing | where: "identifier",page.identifier | first %}
+{% assign service_pricing_url = service_pricing.url %}
+
 <div class="d-flex justify-content-center">
-    <a class="btn-info btn">Acquista</a>
+    <a href="{{ service_pricing_url }}" class="btn-info btn" role="link">Acquista</a>
 </div>
