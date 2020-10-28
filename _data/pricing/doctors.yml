@@ -1,0 +1,19 @@
+frequency: mese
+plans:
+  - name: basic
+    price: 20€
+    highlighted: false
+    features:
+      - f1
+      - f2
+      - f3
+      - "" #per avere delle tabelle lunghe uguali è importante avere lo stesso numero di righe in tutti i piani
+  - name: std
+    price: 40€
+    highlighted: true
+    features:
+      - f1
+      - f2
+      - f3
+      - f4
+

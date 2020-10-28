@@ -2,10 +2,13 @@
 title: MeLavoro
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/" # the subpath of your site, e.g. /blog/
+payment_url: "https://payexample.com" #TODO: link al servizio Rails per inserimento dati registrazione e fatturazione
 url: "https://melavoro.com" # the base hostname & protocol for your site
 logo: /assets/img/logo_melavoro.png
 author: Copyright &copy; 2020 - KRYAX SRL
 lang: it_IT
+product_name: melavoro #identifica il prodotto da vendere nel nostro sistema
+
 
 # Build settings
 safe: true 
