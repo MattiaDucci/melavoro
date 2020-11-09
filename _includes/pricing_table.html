@@ -14,7 +14,7 @@
           <li><i class="ion-checkmark" {% if feature.size == 0 %} style="opacity: 0;"{% endif %}></i>{{feature}}</li>
         {% endfor %}
       </ul>
-      <div class="plan-select"><a href="{{ site.payment_url }}?plan={{ plan["name"] }}&target={{ include.target }}&product={{ site.product_name }}">Select Plan</a></div>
+      <div class="plan-select"><a href="{{ site.payment_url }}?plan_cod={{ plan["name"] }}&target={{ include.target }}&product_cod={{ site.product_name }}">Select Plan</a></div>
     </div>
   {% endfor %}
 </div>
