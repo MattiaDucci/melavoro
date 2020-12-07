@@ -5,5 +5,12 @@
     <div class="row justify-content-center">
         {% include pricing_table.html %}
     </div>
+    {% if include.target == "covid_surveillance" %}
+        <div class="row justify-content-center">
+            <div class="snip1214" style="margin: 0;">
+                <div class="plan-select"><a href="{{ site.payment_url }}?plan_cod={{ pricing.cod }}" style="padding: inherit;"><h3>Acquista</h3></a></div>
+            </div>
+        </div>
+    {% endif %}
     </div>
 </section>

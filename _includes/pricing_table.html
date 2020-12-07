@@ -14,7 +14,9 @@
           <li><i class="ion-checkmark" {% if feature.size == 0 %} style="opacity: 0;"{% endif %}></i>{{feature}}</li>
         {% endfor %}
       </ul>
-      <div class="plan-select"><a href="{{ site.payment_url }}?plan_cod={{ plan["cod"] }}">Select Plan</a></div>
+      {% if include.target != "covid_surveillance" %}
+        <div class="plan-select"><a href="{{ site.payment_url }}?plan_cod={{ plan["cod"] }}">Select Plan</a></div>
+      {% endif %}
     </div>
-  {% endfor %}
+  {% endfor %}  
 </div>
