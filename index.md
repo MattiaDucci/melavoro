@@ -5,8 +5,8 @@ header:
   text: >
     MeLavoro è il portale di Medicina del Lavoro dedicato ai professionisti del settore, alle Aziende ed ai Lavoratori: un unico luogo in cui i diversi protagonisti svolgono la lora attività con servizi sempre all'avanguardia.
   action: # action button is optional
-    label: Sorveglianza COVID
-    url: 'pricing/covid_surveillance.html'
+    label: Green pass check
+    url: 'pricing/covid_surveillance.html' #mettere un mailto a Stefania
 
 
 sections:
@@ -16,17 +16,17 @@ sections:
     background_style: bg-light-gray
     services:
       - title: Medici
-        text: TODO://modificare! Grazie a MeLavoro il singolo Medico di Medicina o le Società di Medicina del Lavoro hanno a disposizione una suite completa per la gestione dei Clienti, dalla gestione dei Gruppi e dei Fattori di Rischio, alla pianificazione degli scadenzari, alla conduzione assistita di Visite ed Esami. Non solo dati ma anche documenti e referti sono integrati in MeLavoro dove tutto è digitale compresa la firma di referti e delle indoneità.
+        text: Grazie a MeLavoro il singolo Medico di Medicina o le Società di Medicina del Lavoro hanno a disposizione una suite completa per la gestione dei Clienti, dalla gestione dei Gruppi e dei Fattori di Rischio, alla pianificazione degli scadenzari, alla conduzione assistita di Visite ed Esami. Non solo dati ma anche documenti e referti sono integrati in MeLavoro dove tutto è digitale compresa la firma di referti e delle indoneità.
         icon: doctor.png
         identifier: doctors
       - title: Aziende
         text: Le Aziende trovano in MeLavoro la piattaforma ideale per governare le attività di sorveglianza sanitaria in collegamento diretto con il Medico Competente. MeLavoro permette all'aziende di gestire le anagrafiche dei dipendenti, la documentazione collegata, l'idoneità dei dipendenti, e molto altro. MeLavoro fornisce inoltre all'azienda strumetni dedicati all'interazione diretta con i dipendenti anche in ottica di Sorveglinza COVID.
         icon: enterprise.png
         identifier: factories
-      - title: Società di Medicina del Lavoro
-        text: Testo per società di medicina del lavoro
+      - title: Dipendenti
+        text: MeLavoro mette a disposizione dei Dipendenti un'App dedicata alla gestione della situazione del singolo, con la possibilità per il dipendente di verificare la propria idoneità lavorativa nonchè accedere agli esami effettuati. Grazie al modulo di Sorveglianza COVID il dipendente può inotre seguire un profilo di autodiagnostica condiviso con il medico competente.
         icon: worker.png
-        identifier: occupational_doctor_companies
+        identifier: workers
 
   - type: products.html
     section_id: products

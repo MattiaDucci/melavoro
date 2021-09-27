@@ -20,16 +20,16 @@
 
       <div class="col-lg-{{ colsL }} col-md-{{ colsM }} text-center">
         <div class="mt-5">
-          <a href="{{ service_url }}">
-            <img src="assets/img/services/{{ service.icon }}" width="100" class="text-primary mb-4">
-          </a>
+          <!-- <a href="{{ service_url }}"> -->
+          <img src="assets/img/services/{{ service.icon }}" width="100" class="text-primary mb-4">
+          <!-- </a> -->
           <h3 class="h4 mb-2">{{ service.title }}</h3>
           {% if service.subtitle %}
           <h4 class="h5 mb-2 text-purple">{{ service.subtitle }}</h4>
           {% endif %}
           <div class="text-muted mb-0">
             {{ service.text | markdownify }}
-            <a href="{{ service_pricing_url }}" class="btn btn-info" role="link">Acquista</a>
+            <!-- <a href="{{ service_pricing_url }}" class="btn btn-info" role="link">Acquista</a> -->
           </div>
         </div>
       </div>

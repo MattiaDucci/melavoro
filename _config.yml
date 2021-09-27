@@ -26,17 +26,10 @@ exclude:
   - README.md
   - vendor
 collections:
-  pricing:
-    output: true
   service_descriptions:
     output: true
 
 defaults:
-  - scope:
-      path: ""
-      type: "pricing"
-    values:
-      layout: "service_price"
   - scope:
       path: ""
       type: "service_descriptions"
