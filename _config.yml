@@ -25,6 +25,7 @@ exclude:
   - Gemfile.lock
   - README.md
   - vendor
+  - docker-compose.yml
 collections:
   service_descriptions:
     output: true
