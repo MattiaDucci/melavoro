@@ -2,6 +2,6 @@ copyright: '&copy; MeLavoro 2020 è un marchio registrato KRYAX'
 rag_soc: KRYAX SRL - BRESCIA - PI 03802270987
 links:
   - text: Privacy Policies
-    url: 'https://www.melavoro.com/privacy.html'
+    url: '/privacy'
     new_window: true
   
