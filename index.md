@@ -34,7 +34,7 @@ sections:
     services:
       - title: Medici ed Aziende Sanitarie
         subtitle: Cloud, Mobile & iPad
-        text: "<b>MeLavoro</b> è la piattaforma Cloud di Medicina del Lavoro: che tu sia un medico singolo od un'Azienda di Medicina del Lavoro, Melavoro è l'ambiente ideale per svolgere la tua attività"
+        text: "<b>MeLavoro</b> è la piattaforma Cloud di Medicina del Lavoro: che tu sia un medico singolo od un'Azienda di Medicina del Lavoro, MeLavoro è l'ambiente ideale per svolgere la tua attività"
         icon: medici-aziende-sanitarie.png
         # url: https://startbootstrap.com/
       - title: Aziende e Dipendenti
